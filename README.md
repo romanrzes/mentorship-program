@@ -12,7 +12,7 @@
 * OpenVPN server
 * CA server
 
-WARNING! This repo doesn't include an information how to [install and configure OpenVPN and CA servers](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-18-04-ru). Your servers are supposed to be installed on the Ubuntu OS ( or any other debian based ditros ).
+WARNING! This repo doesn't include an information how to [install and configure OpenVPN and CA servers](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-18-04-ru). Your servers are supposed to be installed on the Ubuntu OS ( or any other debian based distros ).
 
 ## Topology diagram
 
