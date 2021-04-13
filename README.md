@@ -1,4 +1,4 @@
-# This README file contains information about OpenVPN server.conf configruration and iptalbes rules.
+# This README file contains information about OpenVPN server.conf configruration, iptalbes rules and networking.
 
 ## Mentorship program content
 
@@ -58,14 +58,14 @@ Congrats! Your OpenVPN server is loaded with new configuration.
 
 ### Configuration on the OpenVPN server
 
-For now our `iptables` doesn't know what should be accepted so it will reject our packets by default. There are two pretty similiar rules. The only difference is source/destination adresses. In order to work correctly we should add `ACCEPT` rules for `INPUT` and `OUTPUT` chains.
+For now our `iptables` doesn't know what should be accepted so it will reject our packets by default. There are two pretty similar rules. The only difference is source/destination adresses. In order to work correctly we should add `ACCEPT` rules for `INPUT` and `OUTPUT` chains.
 
 ```
 sudo iptables -A PREROUTING -s 10.8.0.0/24 -d 172.16.3.0/24 -j ACCEPT
 sudo iptables -A PREROUTING -s 172.16.3.0/24 -d 10.8.0.0/24 -j ACCEPT
 ```
 
-### Configuration on the Test machine
+### Configuration on the test machine
 
 The only configuration this machine requires is adding a new route to the route table. Don't forget to change `enp0s3` to your network interface!
 
