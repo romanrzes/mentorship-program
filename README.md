@@ -1,5 +1,17 @@
 # This README file contains information about OpenVPN server.conf configruration, iptalbes rules and networking.
+<!-- TOC -->
 
+- [This README file contains information about OpenVPN server.conf configruration, iptalbes rules and networking.](#this-readme-file-contains-information-about-openvpn-serverconf-configruration-iptalbes-rules-and-networking)
+    - [Mentorship program content](#mentorship-program-content)
+    - [Prerequisites](#prerequisites)
+    - [Topology diagram](#topology-diagram)
+    - [OpenVPN server configuration](#openvpn-server-configuration)
+        - [Substitution of your default OpenVPN server configratuion](#substitution-of-your-default-openvpn-server-configratuion)
+    - [Iptables and network configuration](#iptables-and-network-configuration)
+        - [Configuration on the OpenVPN server](#configuration-on-the-openvpn-server)
+        - [Configuration on the test machine](#configuration-on-the-test-machine)
+
+<!-- /TOC -->
 ## Mentorship program content
 
 * README.md - A set of useful information about a project.
